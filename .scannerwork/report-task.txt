@@ -1,0 +1,6 @@
+projectKey=crud-api-users-Marco
+serverUrl=http://localhost:9000
+serverVersion=25.9.0.112764
+dashboardUrl=http://localhost:9000/dashboard?id=crud-api-users-Marco
+ceTaskId=ea026d87-567b-4f42-9b64-3d09c40e8432
+ceTaskUrl=http://localhost:9000/api/ce/task?id=ea026d87-567b-4f42-9b64-3d09c40e8432
