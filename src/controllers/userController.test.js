@@ -8,7 +8,7 @@ test('Deve verificar se a função getAll é definida', () => {
 const userModel = require('../models/UserModel');
 const userController = require('../controllers/userController');
 
-// Mock do response do Express
+
 const mockResponse = () => {
   const res = {};
   res.status = jest.fn().mockReturnValue(res);
@@ -17,7 +17,7 @@ const mockResponse = () => {
   return res;
 };
 
-// Mock do modelo
+
 jest.mock('../models/UserModel', () => ({
   getAllUsers: jest.fn(),
   getUserById: jest.fn(),
@@ -26,7 +26,7 @@ jest.mock('../models/UserModel', () => ({
   deleteUser: jest.fn(),
 }));
 
-describe('UserController (cobertura ~80%)', () => {
+describe('UserController (cobertura de teste)', () => {
 
   afterEach(() => jest.clearAllMocks());
 
