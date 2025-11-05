@@ -1,17 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1762305704537" clover="3.2.0">
-  <project timestamp="1762305704537" name="All files">
-    <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1" elements="13" coveredelements="8" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
-    <file name="app.js" path="C:\crud-api-users-main\src\app.js">
+<coverage generated="1762305978233" clover="3.2.0">
+  <project timestamp="1762305978234" name="All files">
+    <metrics statements="62" coveredstatements="56" conditionals="10" coveredconditionals="7" methods="17" coveredmethods="15" elements="89" coveredelements="78" complexity="0" loc="62" ncloc="62" packages="3" files="3" classes="3"/>
+    <package name="src">
       <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="10" count="0" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
-      <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
-      <line num="21" count="0" type="stmt"/>
-    </file>
+      <file name="app.js" path="C:\crud-api-users-main\src\app.js">
+        <metrics statements="8" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="28" coveredstatements="24" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <file name="userController.js" path="C:\crud-api-users-main\src\controllers\userController.js">
+        <metrics statements="28" coveredstatements="24" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="26" coveredstatements="26" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="9"/>
+      <file name="userService.js" path="C:\crud-api-users-main\src\services\userService.js">
+        <metrics statements="26" coveredstatements="26" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="9"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
