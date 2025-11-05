@@ -6,7 +6,6 @@ test('Deve retornar lista de usuários', () => {
 });
 
 const userModel = require('../models/UserModel');
-const userService = require('../services/userService');
 
 jest.mock('../models/UserModel', () => ({
   getAllUsers: jest.fn(),

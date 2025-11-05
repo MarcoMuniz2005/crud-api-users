@@ -6,7 +6,6 @@ test('Deve verificar se a função getAll é definida', () => {
 
 
 const userModel = require('../models/UserModel');
-const userController = require('../controllers/userController');
 
 
 const mockResponse = () => {
